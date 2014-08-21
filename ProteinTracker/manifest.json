@@ -18,9 +18,12 @@
 		"persisent":false
 	},
 	
+	
+	
 	"permissions" : [
 		"storage",
-		"notifications"
+		"notifications",
+		"contextMenus"
 	]
 		
 	
