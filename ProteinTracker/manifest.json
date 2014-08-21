@@ -13,6 +13,11 @@
 	
 	"options_page":"options.html",
 	
+	"background":{
+		"scripts":["eventPage.js"],
+		"persisent":false
+	},
+	
 	"permissions" : [
 		"storage",
 		"notifications"
