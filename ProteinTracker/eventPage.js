@@ -14,7 +14,7 @@ chrome.contextMenus.create(menuItem);//add it to the chrome menus
 
 
 //add eventhandler or subscribe to the events.
-chrome.contextMenus.onClicked.addListener( function( clickData ) {//check the API
+chrome.contextMenus.onClicked.addListener( function( clickData ) {//check the API documentation for more information
 
 	if( clickData.menuItemId =="addProtein" && clickData.selectionText) {
 		var intRegex = /^\d+$/;//regex to see if its a number
